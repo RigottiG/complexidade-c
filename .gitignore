@@ -53,3 +53,18 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Local project/IDE/build artifacts
+# CMake out/build dir used by CLion/IDE
+cmake-build-debug/
+
+# CLion/JetBrains
+.idea/
+
+# Local binaries
+aula01/main
+
+# Editor backup/temporary files
+*~
+# Swap files
+.swp
